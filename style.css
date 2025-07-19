@@ -5,11 +5,11 @@ body{
     background-color: #1e272e;
 }
 .sidebar {
-    position: fixed;   /* سایدبار همیشه در یک جای صفحه می‌ماند */
-    top: 0;            /* از بالای صفحه شروع می‌شود */
-    right: 0;          /* این خط را اضافه کن تا سایدبار به سمت راست بچسبد */
-    width: 250px;      /* عرض سایدبار */
-    height: 100vh;     /* ارتفاع سایدبار به اندازه کل صفحه */
+    position: fixed;    /* The sidebar stays fixed in one position on the page */
+    top: 0;           /* Sidebar starts from the top of the page */
+    right: 0;          /* Sidebar is attached to the right side of the page */
+    width: 250px;     /* Sets the width of the sidebar */
+    height: 100vh;    /* Sidebar height is 100% of the viewport */
     background-color: #2f3640;
     padding-top: 30px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.3);
