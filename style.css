@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    direction: rtl;
+    background-color: #1e272e;
+}
+.sidebar {
+    position: fixed;   /* سایدبار همیشه در یک جای صفحه می‌ماند */
+    top: 0;            /* از بالای صفحه شروع می‌شود */
+    right: 0;          /* این خط را اضافه کن تا سایدبار به سمت راست بچسبد */
+    width: 250px;      /* عرض سایدبار */
+    height: 100vh;     /* ارتفاع سایدبار به اندازه کل صفحه */
+    background-color: #2f3640;
+    padding-top: 30px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li{
+    margin: 20px 0;
+    text-align: center;
+}
+.sidebar a{
+    text-decoration: none;
+    color: #dcdde1;
+    display: block;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.sidebar a:hover{
+    background-color: #9c88ff;
+    color: #fff;
+    transform: translate(5px);
+}
